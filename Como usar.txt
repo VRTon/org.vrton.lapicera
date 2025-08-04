@@ -1,0 +1,12 @@
+1)Arrastrar el prefab en la base del avatar y darle click derecho, luego darle a "prefab/Unpack completely"
+
+2)Posicionar "PONER EN MANO" en la mano que mas guste usar (Configurado por defecto para derecha)
+
+3)Modificar el componente de "PONER EN MANO" con el nombre de la mano que utilizaras:
+(RightHand = mano derecha ; LeftHand = mano izquierda)
+
+4)Puedes modificar el tamaño de "PONER EN MANO/boligrafo" si gustas
+
+listo!
+
+Para dibujar utiliza la expresion fingerpoint con cualquier mano

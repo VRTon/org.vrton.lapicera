@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: PenConfigs
+  m_EditorClassIdentifier: 
+  Parameters: {fileID: 11400000, guid: 6612323bc154fd648bf031b11650a4af, type: 2}
+  controls:
+  - name: Pen ON/OFF
+    icon: {fileID: 2800000, guid: 5e6b9572d437fa244b5e917dc03a74ee, type: 3}
+    type: 102
+    parameter:
+      name: Pen_Toggle
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Erase
+    icon: {fileID: 2800000, guid: af0ba5b01a093dd4c8913796c25f3286, type: 3}
+    type: 101
+    parameter:
+      name: Pen_Clear
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Change color
+    icon: {fileID: 2800000, guid: 5ed474b17c0b8044cbef62fb4af16df3, type: 3}
+    type: 203
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: Pen_Color
+    labels: []
+  - name: draw Grab
+    icon: {fileID: 2800000, guid: 2198f13bc8a400b4fa8186f5f9e19942, type: 3}
+    type: 102
+    parameter:
+      name: Pen_Grab
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Teleton2025
+    icon: {fileID: 2800000, guid: 9e85ac6eb7393e04fbc97dcaafd133ee, type: 3}
+    type: 101
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
